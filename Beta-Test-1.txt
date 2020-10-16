@@ -2,6 +2,9 @@ Dylan Nelson: X00144862
 
 **each one is what appeared when each action was done**
 
+
+******Make each student a admin on github******
+
 _Waiting Room:
 No bugs.
 -Current Signal: [waitUser]
