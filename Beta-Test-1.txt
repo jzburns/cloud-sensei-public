@@ -63,4 +63,5 @@ _Errors/bugs:
 -No message notification on both private and class.
 
 -Small share window that shows exactly what student is sharing to lecturer.
+-If accepted once before you dont have to wait again because you account will have been in before.
 
