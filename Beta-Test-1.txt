@@ -1,0 +1,66 @@
+Dylan Nelson: X00144862
+
+**each one is what appeared when each action was done**
+
+_Waiting Room:
+No bugs.
+-Current Signal: [waitUser]
+-User State: [userStateWaiting]
+
+_All in at once:
+Works perfect.
+-Current Signal: [admitUser]
+-User State: [userStateIn]
+
+_Remove all at once:
+Works perfect.
+-Current Signal: [waitUser]
+-User State: [userStateWaiting]
+
+_Stream start:
+Works perfect.
+-Current Signal: [rtpStreamOn]
+-User State: [userStateIn]
+
+_Stream Stop:
+Works perfect.
+-Current Signal: [admitUser]
+-User State: [userStateIn]
+
+_Delete from room:
+Works perfect.
+Current Signal: [deleteUser]
+User State: [userStateDeleted]
+
+_Notes:
+-Pause: makes stop stream and replay caught up with new addition to white board.
+
+-Straight in to stream from waiting room works perfect!
+
+-"When browser crash/closes" : Your code works to re-enter and continue from where left off as all students are still
+ in waiting.
+
+-Notification bell works on/of perfectly (Current Signal: [handDown]/Current Signal: [handUp])
+
+-Screen share: works when sizing changes perfectly.
+     -Screen share with student works perfect.
+
+_Messaging:
+-Works perfect for all student class chat.
+-URL's work perfect. 
+-Messages clear well.
+- Private Message work well apart from notification. 
+
+_Mic:
+-works well when it comes up.
+-Voice to lecturer works perfect.
+--------------------------------------------------------------------------------------------------
+_Errors/bugs:
+-Lecturer Mic turns on/off when screen share starts so will need to togle on then off as it turns on when screen share starts.
+-Enter button doesnt work in message have to click send.
+-Possible stack of messages in chat at bottom (andrzej) ,all lectures messages at top.
+-Scroll doesnt stick to bottom.
+-No message notification on both private and class.
+
+-Small share window that shows exactly what student is sharing to lecturer.
+
